@@ -96,15 +96,15 @@ const parkingLot = [
 	}
 ];
 
-const listOfCards = [
-	{
-		id: 1,
-		title: 'Parking Lot',
-		children: parkingLot
-	},
-	{
-		id: 2,
-		title: 'Product Backlog',
-		children: productBacklog
-	}
-];
+// const listOfCards = [
+// 	{
+// 		id: 1,
+// 		title: 'Parking Lot',
+// 		children: parkingLot
+// 	},
+// 	{
+// 		id: 2,
+// 		title: 'Product Backlog',
+// 		children: productBacklog
+// 	}
+// ];

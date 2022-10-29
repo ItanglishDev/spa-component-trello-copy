@@ -5,6 +5,8 @@ import Trello from './Trello';
 
 export default function App() {
     return (
-        <Trello />
+        <div>
+			<Trello />
+		</div>
     )
 }

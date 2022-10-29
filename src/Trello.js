@@ -1,17 +1,18 @@
 import Container from './Container'
-import { productBacklog } from './data'
+import { productBacklog, parkingLot } from './data'
+import React from 'react'
 
-function trello() {
+function Trello() {
 
 
   return (
     <div>
       <Container title='Product Backlog' array={productBacklog} />
       <Container title='Parking Lot' array={parkingLot} />
-      <Container title='List of Cards' array={listOfCards} />
+      {/* <Container title='List of Cards' array={listOfCards} /> */}
 
     </div>
   );
 }
 
-export default trello;
+export default Trello;
